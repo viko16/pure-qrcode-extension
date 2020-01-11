@@ -1,0 +1,1 @@
+# pure-qrcode-extension
