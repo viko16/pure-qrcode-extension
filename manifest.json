@@ -1,0 +1,11 @@
+{
+  "name": "Pure QR Code Extension",
+  "description": "Yet Another QR Code Generator for current page",
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Pure QR Code Extension"
+  },
+  "permissions": [ "activeTab" ]
+}

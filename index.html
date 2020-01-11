@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pure QR Code Extension</title>
+  <style>
+    #url {
+      word-break: break-all;
+    }
+
+    #copy {
+      width: 100%;
+      font-size: 14px;
+      font-weight: 500;
+      padding: 4px 12px;
+      color: #737373;
+      background-color: #eee;
+      outline: 0;
+      border: 0;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <p id="url"></p>
+  <canvas width="350"></canvas>
+  <button id="copy">Copy Link</button>
+
+  <script src="./qrious.js"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
