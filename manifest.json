@@ -1,6 +1,6 @@
 {
   "name": "Pure QR Code Extension",
-  "description": "Yet Another QR Code Generator for current page",
+  "description": "Yet Another QR Code Generator for the current page",
   "manifest_version": 2,
   "version": "1.0.0",
   "browser_action": {
